@@ -1,5 +1,6 @@
 FROM tomcat:8-jre8
-MAINTAINER "@gmail.com"
+MAINTAINER "chaitalidaware554@gmail.com"
 
 # Copy the built WAR into Tomcat webapps directory
 COPY webapp/target/webapp.war /usr/local/tomcat/webapps/
+
